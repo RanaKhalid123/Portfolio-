@@ -1,10 +1,10 @@
 {
-  "name": "portfolio-20",
+  "name": "portfolio",
   "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Shivam Jha <shivam.jha.2712@gmail.com>",
+  "author": "Khalid Rasool <khalidrasool768@yahoo.com>",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
