@@ -35,15 +35,15 @@ const Header = () => {
                         <span><img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></img></span>
                         <div style={{ marginLeft: 10 }}>
                             <p className="p-text">Hi there! I am</p>
-                            <h1 className="head-text">Shivam</h1>
+                            <h1 className="head-text">Khalid</h1>
                         </div>
                     </div>
 
                     <div className="tag-cmp app__flex">
-                        <p className="p-text">Web Developer</p>
-                        <p className="p-text">Competitive Coder</p>
-                        <p className="p-text">Frontend Developer</p>
-                        <p className="p-text">Digital Marketer</p>
+                        <p className="p-text">Full Stack Engineer</p>
+                        <p className="p-text">Technical Lead</p>
+                        <p className="p-text">AWS, GCP cloud expert</p>
+                        <p className="p-text">Ping pong player</p>
                     </div>
                 </div>
             </motion.div>

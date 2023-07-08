@@ -22,6 +22,7 @@ const Eduskills = () => {
         });
 
         client.fetch(educationQuery).then((data) => {
+            console.log(".................data...............",data);
             setEducation(data);
         });
     }, []);

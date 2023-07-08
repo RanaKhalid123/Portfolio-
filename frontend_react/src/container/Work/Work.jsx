@@ -43,7 +43,7 @@ const Work = () => {
             {/* 'UI/UX', 'Python', 'Mobile App', */}
 
             <div className="app__work-filter">
-                {['Mini', 'Basic', 'Web App', 'Vue & Angular', 'React JS', 'All'].map((item, index) => (
+                {['NodeJs', 'ReactJS', 'All'].map((item, index) => (
                     <div
                         key={index}
                         onClick={() => handleWorkFilter(item)}
@@ -99,9 +99,9 @@ const Work = () => {
                             <h4 className="bold-text">{work.title}</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
 
-                            <div className="app__work-tag app__flex">
-                                <p className="p-text">{work.tags[0]}</p>
-                            </div>
+                            {/* <div className="app__work-tag app__flex">
+                                <p className="p-text">{work.tags}</p>
+                            </div> */}
                         </div>
                     </div>
                 ))}

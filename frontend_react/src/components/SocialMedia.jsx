@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { BsGithub, BsTwitter, BsFileCode } from 'react-icons/bs';
 import { FaLinkedin, FaFile } from 'react-icons/fa';
 
@@ -6,32 +6,32 @@ const SocialMedia = () => {
     return (
         <div className="app__social">
             <div>
-                <a href="https://www.linkedin.com/in/shivamjha2712/">
+                <a href="https://www.linkedin.com/in/khalidrasool/" title="LinkedIn">
                     <FaLinkedin />
                 </a>
             </div>
             <div>
-                <a href="https://github.com/shivam-jha2712">
+                <a href="https://github.com/RanaKhalid123" title="Github">
                     <BsGithub />
                 </a>
             </div>
             <div>
-                <a href="https://shorturl.at/hmAW1">
+                <a target="_blank" href="https://shorturl.at/bjnP4" title="Resume">
                     <FaFile />
                 </a>
             </div>
             <div>
-                <a href="https://twitter.com/Shivamj23174085">
-                    <BsTwitter />
+                <a target="_blank" href="https://shorturl.at/alps1" title="Portfolio">
+                    <FaFile />
                 </a>
             </div>
             <div>
-                <a href="https://linktr.ee/shivamjha2712">
+                <a  target="_blank" href="https://linktr.ee/khalidrasool" title="Linktree">
                     <BsFileCode />
                 </a>
             </div>
         </div>
-    )
+    );
 }
 
-export default SocialMedia
+export default SocialMedia;
